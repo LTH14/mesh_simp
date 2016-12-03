@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::Parse(__sFILE*):SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "v_p_adj">
+            </PersistentString>
+            <PersistentString
+               value = "v_e_adj">
+            </PersistentString>
+            <PersistentString
+               value = "edge_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::contract():SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_pQList[2].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[5].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[0].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[3].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[6].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[1].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[7].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[4].value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::update_Q(int, int, SimpleOBJ::Vec3f, SimpleOBJ::Vec3f):SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "v_p_adj[15000][0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
