@@ -3,6 +3,22 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::init_adjlist():SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "id_num">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::compute_Q():SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "vlist[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "SimpleOBJ::CSimpleObject::Parse(__sFILE*):SimpleObject.cpp">
          <PersistentStrings>
             <PersistentString
@@ -13,6 +29,20 @@
             </PersistentString>
             <PersistentString
                value = "edge_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::update_Q(int, int, SimpleOBJ::Vec3f, SimpleOBJ::Vec3f):SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "v_p_adj[15000][0]">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[0].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[4].value">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -46,10 +76,41 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "SimpleOBJ::CSimpleObject::update_Q(int, int, SimpleOBJ::Vec3f, SimpleOBJ::Vec3f):SimpleObject.cpp">
+         contextName = "SimpleOBJ::CSimpleObject::update_this_Q(int, int, SimpleOBJ::Vec3f, SimpleOBJ::Vec3f):SimpleObject.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "v_p_adj[15000][0]">
+               value = "m_pQList[0].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[1].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[2].value">
+            </PersistentString>
+            <PersistentString
+               value = "m_pQList[3].value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::comp_err(int, int):SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Q2.value">
+            </PersistentString>
+            <PersistentString
+               value = "max_face_num">
+            </PersistentString>
+            <PersistentString
+               value = "Q1.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SimpleOBJ::CSimpleObject::compute_a_Q(int):SimpleObject.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "vlist[change1]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

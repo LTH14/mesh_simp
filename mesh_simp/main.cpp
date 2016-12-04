@@ -17,7 +17,6 @@ using namespace cv;
 using namespace std;
 using namespace SimpleOBJ;
 
-
 int main() {
     // insert code here...
     CSimpleObject obj;
@@ -38,6 +37,8 @@ int main() {
         obj.contract();
     }
     char saveplace[100] = "/Users/litianhong/Desktop/C++/mesh_simp/";
+    cout << "max edges" << obj.max_edge_num << endl;
+    cout << "max faces" << obj.max_face_num << endl;
     strcat(saveplace, input);
     obj.SaveToObj(saveplace);
     exit(0);

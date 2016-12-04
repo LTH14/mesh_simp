@@ -33,7 +33,7 @@ namespace SimpleOBJ
     struct Edge
     {
         int ID;
-        float cost;
+        double cost;
     };
     
     class EdgeSortCriterion {
@@ -68,7 +68,7 @@ namespace SimpleOBJ
             ;
         }
     public:
-        float value[4][4];
+        double value[4][4];
     };
     
     
@@ -88,10 +88,15 @@ namespace SimpleOBJ
         void compute_Q();
         void update_Q(int v1, int v2, Vec3f v1_value, Vec3f v2_value);
         void update_this_Q(int v1, int v2, Vec3f v1_value, Vec3f v2_value);
-        float comp_err(int i, int j);
+        double comp_err(int i, int j);
         Vec3f opt_target(int i, int j);
         int             m_nowTriangles;
+        Qmetric compute_a_Q(int v1);
         void init_adjlist();
+        int             max_face_num = 0;
+        int             max_edge_num = 0;
+        int matrixInversion(double a[4][4], int n);
+        void edit();
         
     protected:
         bool Parse(FILE* fp);
@@ -101,7 +106,8 @@ namespace SimpleOBJ
         
         int             m_nVertices;
         int             m_nTriangles;
-        
+        int             m_newVertex = 0;
+        int             m_newTriangle = 0;
         Vec3f*          m_pVertexList;
         Array<int,3>*   m_pTriangleList;
         Qmetric*        m_pQList;
